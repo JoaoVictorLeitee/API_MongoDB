@@ -57,6 +57,6 @@ app.post(('/cadastro'), async (request, response) => {
 
 
 app.listen(port, () => {
-    mongoose.connect('mongodb+srv://test:test@usersapi.5s0vocl.mongodb.net/?retryWrites=true&w=majority&appName=UsersAPI');
+    mongoose.connect('mongodb+srv://test:test@test.teste.mongodb.net/?retryWrites=true&w=majority&appName=teste');
     console.log("Api funcionando")
 });
